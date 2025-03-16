@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Header</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+            <img src="https://cdn-icons-png.flaticon.com/512/942/942748.png" alt="Logo"> Plotlist
+        </a>
+
+        <!-- Navbar Toggle Button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Items -->
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link active text-secondary" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link  text-light" href="#">Category</a></li>
+                <li class="nav-item"><a class="nav-link  text-light" href="#">Listing</a></li>
+                <li class="nav-item"><a class="nav-link  text-light" href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- Button -->
+        <a href="#" class="btn add-listing-btn bg-light">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000"><path d="M440-280h80v-160h160v-80H520v-160h-80v160H280v80h160v160Zm40 200q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg> Add Your Listing
+        </a>
+    </div>
+</nav>
+
+<div class="img">
+<img src="background.jpg" alt="" srcset="">
+
+<div class="contain">
+<section class="hero-section">
+    <div class="container text-center">
+        <p class="hero-content text-uppercase text-light small-text">OVER 36,500+ ACTIVE LISTINGS</p>
+        <h1 class="hero-content text-white mt-4">Find Nearby Places & Things</h1>
+
+        <!-- Search Filters -->
+        <div class="search-box d-flex justify-content-center flex-wrap">
+            <select class="form-select">
+                <option>All Areas</option>
+                <option>New Village</option>
+                <option>Old Town</option>
+                <option>Modern City</option>
+            </select>
+            <input type="text" class="form-control" placeholder="Enter a location">
+            <select class="form-select">
+                <option>Price Range</option>
+                <option>$100 - $250</option>
+                <option>$250 - $500</option>
+                <option>$500 - $1,000</option>
+                <option>$1,000 or more</option>
+            </select>
+            <button class="btn btn-primary search-btn">
+                <i class="fas fa-search"></i> Search Now
+            </button>
+        </div>
+
+        <section class="category-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <!-- Category Item -->
+                    <div class="col-md-2 col-6 text-center">
+                        <div class="category-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="44px" viewBox="0 -960 960 960" width="44px" fill="#FFFFFF"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg>
+                        </div>
+                        <p>Apartments</p>
+                    </div>
+        
+                    <div class="col-md-2 col-6 text-center">
+                        <div class="category-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#FFFFFF"><path d="M575-364q-23-52-90.5-82.5T344-477q-73 0-140.5 30.5T112-364h463ZM40-304q0-109 93-171t211-62q118 0 211 62t93 171H40Zm0 128v-60h608v60H40ZM708-40v-60h86l57-580H453l-7-60h205v-180h60v180h209l-67 640q-3.09 25.86-22.67 42.93Q810.76-40 785-40h-77Zm0-60h86-86ZM70-40q-12.75 0-21.37-8.63Q40-57.25 40-70v-30h608v30.18q0 12.82-8.62 21.32Q630.75-40 618-40H70Zm274-324Z"/></svg>
+                        </div>
+                        <p>Food & Life</p>
+                    </div>
+        
+                    <div class="col-md-2 col-6 text-center">
+                        <div class="category-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#FFFFFF"><path d="M200-204v54q0 12.75-8.62 21.37Q182.75-120 170-120h-20q-12.75 0-21.37-8.63Q120-137.25 120-150v-324l85-256q5-14 16.5-22t26.5-8h464q15 0 26.5 8t16.5 22l85 256v324q0 12.75-8.62 21.37Q822.75-120 810-120h-21q-13 0-21-8.63-8-8.62-8-21.37v-54H200Zm3-330h554l-55-166H258l-55 166Zm-23 60v210-210Zm105.76 160q23.24 0 38.74-15.75Q340-345.5 340-368q0-23.33-15.75-39.67Q308.5-424 286-424q-23.33 0-39.67 16.26Q230-391.47 230-368.24q0 23.24 16.26 38.74 16.27 15.5 39.5 15.5ZM675-314q23.33 0 39.67-15.75Q731-345.5 731-368q0-23.33-16.26-39.67Q698.47-424 675.24-424q-23.24 0-38.74 16.26-15.5 16.27-15.5 39.5 0 23.24 15.75 38.74Q652.5-314 675-314Zm-495 50h600v-210H180v210Z"/></svg>
+                        </div>
+                        <p>Cars</p>
+                    </div>
+        
+                    <div class="col-md-2 col-6 text-center">
+                        <div class="category-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#FFFFFF"><path d="M220-80q-24 0-42-18t-18-42v-520q0-24 18-42t42-18h110v-10q0-63 43.5-106.5T480-880q63 0 106.5 43.5T630-730v10h110q24 0 42 18t18 42v520q0 24-18 42t-42 18H220Zm0-60h520v-520H630v90q0 12.75-8.68 21.37-8.67 8.63-21.5 8.63-12.82 0-21.32-8.63-8.5-8.62-8.5-21.37v-90H390v90q0 12.75-8.68 21.37-8.67 8.63-21.5 8.63-12.82 0-21.32-8.63-8.5-8.62-8.5-21.37v-90H220v520Zm170-580h180v-10q0-38-26-64t-64-26q-38 0-64 26t-26 64v10ZM220-140v-520 520Z"/></svg>                        </div>
+                        <p>Shopping</p>
+                    </div>
+        
+                    <div class="col-md-2 col-6 text-center">
+                        <div class="category-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#FFFFFF"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm-43-61v-82q-35 0-59-26t-24-61v-44L149-559q-5 20-7 39.5t-2 39.5q0 130 84.5 227T437-141Zm294-108q44-48 66.5-107.5T820-480q0-106-58-192.5T607-799v18q0 35-24 61t-59 26h-87v87q0 17-13.5 28T393-568h-83v88h258q17 0 28 13t11 30v127h43q29 0 51 17t30 44Z"/></svg>
+                        </div>
+                        <p>Traveling</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+</section>
+</div>
+</div>
+
+<!--  -->
+<section class="categories-section text-center">
+    <h2 class="section-title fs-2">Popular Categories</h2>
+    <p class="section-subtitle fs-4">CHECK THEM OUT</p>
+</section>
+<section class="categories-container">
+    <div class="sidebar">
+        <div class="category active">
+            <i class="fas fa-home"></i> Apartments
+        </div>
+        <div class="category">
+            <i class="fas fa-utensils"></i> Food & Life
+        </div>
+        <div class="category">
+            <i class="fas fa-car"></i> Cars
+        </div>
+        <div class="category">
+            <i class="fas fa-shopping-bag"></i> Shopping
+        </div>
+        <div class="category">
+            <i class="fas fa-bicycle"></i> Traveling
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="text-section">
+            <h2>One Of The Most Trending Stuffs Right Now!</h2>
+            <p>
+                Plot Listing is a responsive Bootstrap 5 website template that included 4 different HTML pages.
+                This template is provided by TemplateMo website. You can apply this layout for your static
+                or dynamic CMS websites.
+            </p>
+            <button class="discover-btn">
+                <i class="fas fa-eye"></i> Discover More
+            </button>
+        </div>
+        <div class="image-section">
+            <img src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/tabs-image-01.jpg" alt="Modern Building" loading="lazy">
+        </div>
+    </div>
+</section>
+
+<!--  -->
+<section class="categories-section text-center">
+    <h2 class="section-title fs-2">Recent Listing</h2>
+    <p class="section-subtitle fs-4">CHECK THEM OUT</p>
+</section>
+<div class="property-card">
+    <div class="property-image">
+        <img src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/listing-01.jpg" alt="Property Image">
+    </div>
+    <div class="property-details">
+        <h4>1. First Apartment Unit</h4>
+        <div class="rating">
+            ☆☆☆☆☆ (18 Reviews)
+        </div>
+        <p class="agent">by: <a href="#">Sale Agent</a></p>
+        <p class="price"><i class="fas fa-dollar-sign"></i> $450 - $950 / month with taxes</p>
+        <p class="details"><strong>Details:</strong> 2760 sq ft</p>
+        <div class="features">
+            <p><i class="fas fa-bed"></i> 4 Bedrooms</p>
+            <p><i class="fas fa-bath"></i> 4 Bathrooms</p>
+        </div>
+        <button class="contact-btn">
+            <i class="fas fa-eye"></i> Contact Now
+        </button>
+    </div>
+</div>
+<div class="property-card">
+    <div class="property-image">
+        <img src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/listing-02.jpg" alt="Property Image">
+    </div>
+    <div class="property-details">
+        <h4>2. Another House Of Gaming</h4>
+        <div class="rating">
+            ☆☆☆☆☆ (24 Reviews)
+        </div>
+        <p class="agent">by: <a href="#">Sale Agent</a></p>
+        <p class="price"><i class="fas fa-dollar-sign"></i> $1,450 - $3,500 / month with taxes</p>
+        <p class="details"><strong>Details:</strong> 3650 sq ft</p>
+        <div class="features">
+            <p><i class="fas fa-bed"></i> 4 Bedrooms</p>
+            <p><i class="fas fa-bath"></i> 3 Bathrooms</p>
+        </div>
+        <button class="contact-btn">
+            <i class="fas fa-eye"></i> Contact Now
+        </button>
+    </div>
+</div>
+<div class="property-card">
+    <div class="property-image">
+        <img src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/listing-03.jpg" alt="Property Image">
+    </div>
+    <div class="property-details">
+        <h4>3. Secret Place Hidden House</h4>
+        <div class="rating">
+            ☆☆☆☆☆ (36 Reviews)
+        </div>
+        <p class="agent">by: <a href="#">Sale Agent</a></p>
+        <p class="price"><i class="fas fa-dollar-sign"></i> $1,450 - $3,600 / month with taxes</p>
+        <p class="details"><strong>Details:</strong> 5500 sq ft</p>
+        <div class="features">
+            <p><i class="fas fa-bed"></i> 4 Bedrooms</p>
+            <p><i class="fas fa-bath"></i> 3 Bathrooms</p>
+        </div>
+        <button class="contact-btn">
+            <i class="fas fa-eye"></i> Contact Now
+        </button>
+    </div>
+</div>
+<div class="property-card">
+    <div class="property-image">
+        <img src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/listing-04.jpg" alt="Property Image">
+    </div>
+    <div class="property-details">
+        <h4>4. Sunshine Fourth Apartment</h4>
+        <div class="rating">
+            ☆☆☆☆☆ (24 Reviews)
+        </div>
+        <p class="agent">by: <a href="#">Sale Agent</a></p>
+        <p class="price"><i class="fas fa-dollar-sign"></i>$3,600 / month with taxes</p>
+        <p class="details"><strong>Details:</strong> 3660 sq ft</p>
+        <div class="features">
+            <p><i class="fas fa-bed"></i> 5 Bedrooms</p>
+            <p><i class="fas fa-bath"></i> 3 Bathrooms</p>
+        </div>
+        <button class="contact-btn">
+            <i class="fas fa-eye"></i> Contact Now
+        </button>
+    </div>
+</div>
+<div class="property-card">
+    <div class="property-image">
+        <img src="https://templatemo.com/templates/templatemo_564_plot_listing/assets/images/listing-05.jpg" alt="Property Image">
+    </div>
+    <div class="property-details">
+        <h4>5. Best House Of The Town</h4>
+        <div class="rating">
+            ☆☆☆☆☆ (32 Reviews)
+        </div>
+        <p class="agent">by: <a href="#">Sale Agent</a></p>
+        <p class="price"><i class="fas fa-dollar-sign"></i>$5,600 / month with taxes</p>
+        <p class="details"><strong>Details:</strong> 1750 sq ft</p>
+        <div class="features">
+            <p><i class="fas fa-bed"></i> 6 Bedrooms</p>
+            <p><i class="fas fa-bath"></i> 3 Bathrooms</p>
+        </div>
+        <button class="contact-btn">
+            <i class="fas fa-eye"></i> Contact Now
+        </button>
+    </div>
+</div>
+
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <!-- Left Section -->
+            <div class="footer-logo">
+                <img src="https://cdn-icons-png.flaticon.com/512/942/942748.png" alt="Plotlist Logo">
+                <h3>Plotlist</h3>
+                <p>If you consider that Plot Listing template is useful for your website, please support us a little via PayPal.</p>
+            </div>
+
+            <!-- Middle Section -->
+            <div class="footer-links">
+                <h4>Helpful Links</h4>
+                <ul>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Reviews</a></li>
+                    <li><a href="#">Listing</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Awards</a></li>
+                    <li><a href="#">Useful Sites</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <!-- Right Section -->
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p>27th Street of New Town, Digital Villa</p>
+                <p>010-020-0340 &nbsp; | &nbsp; 090-080-0760</p>
+            </div>
+        </div>
+
+        <!-- Copyright Section -->
+        <div class="footer-bottom">
+            <p>Copyright © 2025. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
